@@ -1,0 +1,91 @@
+/* src/pages/Rooms.css */
+.rooms__container {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .rooms__container h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .rooms__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+  }
+  
+  .room__card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .room__image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .room__details {
+    padding: 20px;
+  }
+  
+  .room__title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .room__description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .room__price {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .room__btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .room__btn:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .rooms__list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .room__card {
+      width: 80%;
+      margin-bottom: 20px; /* Space between cards on smaller screens */
+    }
+  }
+  /* Example section styling */
+.rooms__container {
+  padding: 50px 20px;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
